@@ -66,6 +66,7 @@ body{
     margin-left: 20px;
     margin-right: 100px;
     border: 1px solid red;
+    
 }
 
 .get-body{
@@ -100,20 +101,7 @@ body{
     padding: 15px;
 }
 
-.img-container img{
-    width: 80%;
-}
 
-.img-container .banner-img{
-    width: 300px;
-}
-
-.banner-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    
-}
 
 .ball{
     height: 20px;
@@ -122,6 +110,9 @@ body{
     background-color: rgb(230, 83, 60);;
     position: relative;
 }
+
+
+
 .banner-content-one{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
@@ -129,14 +120,8 @@ body{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
-    ;
-    
 }
-.banner-content-two{
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-}
+
 
 
 
