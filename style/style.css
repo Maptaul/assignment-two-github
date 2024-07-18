@@ -13,6 +13,11 @@ body{
     
 }
 
+img{
+    width: 100%;
+}
+
+
 .container{
     width: 90%;
     margin: 5rem auto;
@@ -129,10 +134,14 @@ h3{
     justify-content: space-between;
 }
 
+.change-habit{
+    margin-bottom: 40px;
+}
 .change-content{
     margin-top: 20px;
     /* border: 1px solid red; */
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .change-content .change-title{
@@ -154,19 +163,16 @@ h3{
     justify-content: space-between;
 }
 
-.change-image1{
+.change-image1,
+.change-image2,
+.change-image3,
+.change-image4 {
     text-align: center;
 }
-.change-image2{
-    text-align: center;
-}
-.change-image3{
-    text-align: center;
-}
-.change-image4{
-    text-align: center;
-}
+
 .change-container img{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
@@ -181,4 +187,39 @@ h3{
     color: rgba(255, 255, 255, 0.5);
 }
 
+.run-an{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+    padding: 30px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
 
+.left-conatiner .change-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.right-conatiner img{
+    width: 300px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.run-an .tittle-t2{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
