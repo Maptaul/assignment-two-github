@@ -267,7 +267,7 @@ h3{
 }
 
 .run-an{
-    width: 1060px;
+    width: 85%;
     height: 371px;
     margin: 0 auto;
     padding: 30px;
@@ -632,8 +632,55 @@ td{
         display: none;
     }
     
-    
     .bar-icon{
         display: block;
     }
+    .title,
+    .tittle-t2,
+    .banner-main,
+    .banner-image-container,
+    .change-habit,
+    .change-content,
+    .change-container
+    .run-an{
+        flex-direction: column;
+    }
+    
+    
+    .banner-image-container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .change-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin: 0 auto;
+    }
+    
+    .run-an{
+        width: 90%;
+      border: 1px solid red;
+      /* margin: 0 auto;
+      padding: 20px; */
+    }
+    
+    .left-conatiner{
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+    .right-conatiner{
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+
+    .change-title{
+        font-size: 1rem;
+    }
+
 }
+
+
