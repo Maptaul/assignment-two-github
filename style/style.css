@@ -60,6 +60,10 @@ h3{
     cursor: pointer;
 }
 
+.bar-icon {
+    display: none;
+}
+
 /* banner section  */
 
 .banner-main{
@@ -618,4 +622,18 @@ td{
 .copyright{
     text-align: center;
     margin-top: 15px;
+}
+
+/* responsive  */
+
+
+@media screen and (max-width:576px) { 
+    .nav-options{
+        display: none;
+    }
+    
+    
+    .bar-icon{
+        display: block;
+    }
 }
