@@ -120,8 +120,13 @@ h3{
 
 
 .banner-image-container{
-    width: 48%;
-    }
+    width: 45%;
+}
+
+..banner-image-container img{
+    w
+}
+
     .workout-video{
       position:absolute;
       margin-top: -380px;
@@ -646,6 +651,11 @@ td{
         flex-direction: column;
     }
     
+    .banner-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    }
     
     .banner-image-container{
         margin: 0 auto;
@@ -659,27 +669,7 @@ td{
         margin: 0 auto;
     }
     
-    .run-an{
-        width: 90%;
-      border: 1px solid red;
-      /* margin: 0 auto;
-      padding: 20px; */
-    }
     
-    .left-conatiner{
-        width: 100%;
-        margin: 0 auto;
-        border: 1px solid red;
-    }
-    .right-conatiner{
-        width: 100%;
-        margin: 0 auto;
-        border: 1px solid red;
-    }
-
-    .change-title{
-        font-size: 1rem;
-    }
 
 }
 
