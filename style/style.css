@@ -98,9 +98,10 @@ h3{
 }
 
 .banner-title .shape{
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 400;
-    font-family: "Playwrite CU", cursive;
+    font-family: "miama";
+    lin
 }
 .body-button{
     display: flex;
@@ -230,8 +231,9 @@ h3{
 
 .change-content .change-title{
     color: rgb(255, 255, 255);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 .change-content .change-description{
     color: rgba(255, 255, 255, 0.5);
@@ -655,10 +657,11 @@ td{
     }
     
     .banner-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
     margin-bottom: 20px;
     }
+    
     
     .banner-image-container{
         margin: 0 auto;
@@ -707,6 +710,7 @@ td{
         height: auto;
         margin: 0 auto;
         margin-left: 10px;
+        margin-right: 10px;
         padding: 30px;
         /* border: 1px solid red; */
         display: grid;
@@ -716,6 +720,9 @@ td{
         align-items: center;
         border-radius: 18px;
         background: rgb(34, 34, 34);
+    }
+    .left-conatiner .change-title{
+        font-size: 32px;
     }
     .left-conatiner .tittle-t2{
         width: 287px;
@@ -731,16 +738,22 @@ td{
         /* border: 1px solid red; */
     }
 
+    .bmi-title{
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
     .calculator-section{
         display: flex;
         flex-direction: column;
-        border: 1px red solid;
+        /* border: 1px red solid; */
         margin: 0 auto;
         width: auto;
         height: auto;
     }
     .calculator-left{
-        margin-left: 30px;
+        margin: 0 auto;
+        margin-left: 20px;
     }
     
     .table-tiitle{
@@ -854,7 +867,7 @@ td{
 
     .btn-cal{
         width: 200px;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-bottom: 20px;
     }
 
@@ -862,16 +875,59 @@ td{
         display: flex;
         flex-direction: column;
     }
+
+    .team-tittle{
+        font-size: 32px;
+    }
     .footer,
     .footer-backgra{
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .footer-contr{
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    .footer-tittle{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .footer-part-2{
+        margin: 0 auto;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+    
+    .footer-part-3{
+        margin: 0 auto;
+        text-align: left;
+        justify-content: left;
+        margin-left: 20px;
+    }
+
+    .part-2-title, .part-3-title{
+        font-size: 26px;
+    }
+
+    .part-2-li, .part-3-li{
+        font-size: 20px;
     }
 
     .hr{
         width: auto;
         margin: 0 auto;
         border-radius: 5px;
+    }
+
+    .copyright{
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 20px;
     }
 
     }
