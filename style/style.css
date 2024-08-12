@@ -38,6 +38,7 @@ h3{
     background: rgb(230, 83, 60);
     padding: 10px;
     font-weight: 600;
+    font-size: 12px;
 }
 
 
@@ -64,6 +65,9 @@ h3{
     display: none;
 }
 
+.watch-icon{
+    display: none;
+}
 /* banner section  */
 
 .banner-main{
@@ -92,7 +96,7 @@ h3{
 }
 
 .banner-title{
-    font-size: 4.9rem;
+    font-size: 4.5rem;
     font-weight: 900;
     margin-bottom: 20px;
 }
@@ -115,7 +119,10 @@ h3{
 .body-button .dowload-app{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 3.5rem;
-    padding: 10px;
+    padding: 15px;
+}
+.dowload-app{
+    font-size: 12px;
 }
 
 
@@ -155,6 +162,11 @@ h3{
       background-color: rgba(255, 255, 255, 0.1);
       color: white;
       }
+
+      .watch-button{
+        display: none;
+      }
+    
     .circle{
       display: flex;
       justify-content:center;
@@ -174,16 +186,14 @@ h3{
       margin-right: 115px;
       margin-top: 45px;
     }
+
     .workout-title{
       font-size: 1rem;
       margin: 10px;
       font-weight: 1200;
     
     }
-    workout-title1{
-      font-weight: 1200;
-    
-    }
+   
     .workout-des2{
       padding-left: 50px;
       margin-bottom: 50px;
@@ -197,6 +207,7 @@ h3{
       margin-left: 5px;
       margin-right: 5px;
     }
+
     .banner-image-container{
       position: relative;
     }
@@ -281,8 +292,8 @@ h3{
     /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 100px;
-    justify-content: space-around;
+    gap: 400px;
+    justify-content: space-between;
     align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
@@ -339,7 +350,7 @@ h3{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    gap: 30px;
+    gap: 0px;
     /* border: 1px solid red; */
     background: rgb(34, 34, 34);
     width: 100%;
@@ -638,7 +649,7 @@ td{
 /* responsive  */
 
 
-@media screen and (max-width:767px) { 
+@media screen and (max-width:576px) { 
     .nav-options{
         display: none;
     }
@@ -672,6 +683,17 @@ td{
         width: 400px;
         height: 500px;
     }
+
+    .watch-button{
+        position: absolute;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* z-index: 1; */
+        /* overflow: auto; */
+      }
+    
+    
     .change-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -704,6 +726,11 @@ td{
         border-radius: .5rem;
         background-color: rgba(255, 255, 255, 0.1);
         color: white;
+        }
+
+    
+        span{
+            font-size: 40px;
         }
     .run-an{
         width: auto;
